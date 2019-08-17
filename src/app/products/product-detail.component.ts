@@ -7,7 +7,7 @@ import { IProduct } from './product';
   styleUrls: ['./product-detail.component.css']
 })
 export class ProductDetailComponent implements OnInit {
-  pageTitle: string = "Product Detail";
+  pageTitle: string = "Product Detail ";
   product: IProduct;
   constructor(private route: ActivatedRoute, private router: Router) {}
 
